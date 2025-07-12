@@ -1,0 +1,67 @@
+body{
+    background-color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+.navbar {
+    width: auto;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    background-color:rgba(32, 255, 125, 0.815);
+    opacity: 70%;
+    color: aqua;
+    
+}
+.nav {
+    background-color: transparent;
+}
+
+.img{
+
+  filter: drop-shadow(5px 5px 5px #2ffa62);
+  opacity: 90%;
+}
+img {
+  border-radius: 50%;
+}
+h2
+.txt p{
+    color: #2ffa62;
+}
+a:link {
+  text-decoration: none;
+}
+a:link {
+  color: rgb(255, 0, 128);
+}
+
+/* visited link */
+a:visited {
+  color: rgb(255, 0, 128);
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(201, 1, 101);
+}
+
+/* selected link */
+a:active {
+  color: rgb(119, 0, 255);
+}
